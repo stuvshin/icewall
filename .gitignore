@@ -1,0 +1,39 @@
+# Environment & Secrets (CRITICAL)
+.env
+*.env
+*.env.*
+!.env.example
+secrets/
+certs/
+*.pem
+*.key
+*.crt
+
+# Docker specific
+.dockerignore
+docker-compose.override.yml
+
+# Icewall & Server Logs / Runtime Data
+*.log
+logs/
+data/
+cache/
+*.pid
+*.seed
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Common build output (if applicable)
+dist/
+build/
+node_modules/
+__pycache__/
+*.pyc
